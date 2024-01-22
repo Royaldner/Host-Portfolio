@@ -23,13 +23,14 @@ function Projects(props) {
         </motion.h1>
         <motion.h2 className="text-xl font-thin">{props.description}</motion.h2>
         <div className="text-lime-300 font-semibold"> {props.languages}</div>
-        <motion.button
-          className=" w-48 h-14 rounded-md bg-lime-300 text-2xl z-[99]"
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
-        >
-          DEMO
-        </motion.button>
+        <a href={props.link}>
+          <motion.button
+            className=" w-48 h-14 rounded-md bg-lime-300 text-2xl z-[99]"
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}>
+              DEMO
+          </motion.button>
+        </a>
       </div>
       <div className="md:relative hidden md:block w-[90%] md:w-2/3 h-auto md:h-full  md:mt-40">
         <motion.div
