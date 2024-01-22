@@ -61,7 +61,7 @@ function Main() {
             className="text-lg font-semibold text-green-700 tracking-[10px]"
             variants={Variants}
           >
-            ROY ALDNER LABADOOOOO
+            ROY ALDNER LABADO
           </motion.h2>
           <motion.h1 className="text-4xl md:text-7xl " variants={Variants}>
             <span className="text-lime-300">Software</span> Developer <br />
