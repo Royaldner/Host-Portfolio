@@ -23,7 +23,7 @@ function Projects(props) {
         </motion.h1>
         <motion.h2 className="text-xl font-thin">{props.description}</motion.h2>
         <div className="text-lime-300 font-semibold"> {props.languages}</div>
-        <motion.a href={props.link} className="z-[99]"
+        <motion.a href={props.link} target='blank' className="z-[99]"
             >
           <motion.button
             className=" w-48 h-14 rounded-md bg-lime-300 text-2xl z-[99]"
