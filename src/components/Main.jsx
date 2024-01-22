@@ -75,7 +75,7 @@ function Main() {
                 whileTap={{ scale: 0.95 }}
                 variants={Variants}
               >
-                Recent Projects 2345
+                Recent Projects 23456
               </motion.button>
             </a>
             <a href="#services">
