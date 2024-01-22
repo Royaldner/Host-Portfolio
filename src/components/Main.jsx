@@ -61,7 +61,7 @@ function Main() {
             className="text-lg font-semibold text-green-700 tracking-[10px]"
             variants={Variants}
           >
-            ROY ALDNER LABADO
+            ROY ALDNER LABADOOOOO
           </motion.h2>
           <motion.h1 className="text-4xl md:text-7xl " variants={Variants}>
             <span className="text-lime-300">Software</span> Developer <br />
@@ -75,7 +75,7 @@ function Main() {
                 whileTap={{ scale: 0.95 }}
                 variants={Variants}
               >
-                Recent Projects 23456789
+                Recent Projects
               </motion.button>
             </a>
             <a href="#services">
