@@ -54,7 +54,7 @@ function Main() {
               animate="animate">
             <motion.h2 className='text-lg font-semibold text-green-700 tracking-[10px]'
               variants={Variants}>
-              ROY ALDNER LABADO
+              ROY ALDNER LABADO 1
             </motion.h2>
             <motion.h1 className='text-4xl md:text-7xl '
               variants={Variants}>
